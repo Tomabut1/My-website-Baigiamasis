@@ -1,0 +1,288 @@
+/* Bendrai visam puslapiui */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigacija */
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Hero sekcija */
+.hero {
+    background:url('bg-masthead.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    max-width: 600px;
+}
+
+.input-group {
+    max-width: 400px;
+    margin: 0 auto;
+}
+/* Resetinam numatytuosius nustatymus */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sekcijos stilius */
+.features {
+    background-color: #f8f9fa; /* Šviesiai pilkas fonas */
+    padding: 60px 0;
+}
+
+/* Funkcijos bloko stilius */
+.feature-item {
+    margin-bottom: 20px; /* Tarpas tarp eilučių */
+}
+
+.feature-icon {
+    font-size: 40px; /* Ikonėlės dydis */
+    color: #007bff; /* Mėlyna spalva */
+    margin-bottom: 15px; /* Tarpas po ikonėlės */
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Tarpas po antraštės */
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+/* Navigacijos juosta */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav .btn {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero sekcija */
+.hero {
+    background: url('bg-masthead.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    max-width: 600px;
+}
+
+/* Prenumeratos forma */
+.hero form {
+    margin-top: 20px;
+}
+
+.hero input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container img {
+    max-width: 100%;
+}
+.full width {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row {
+    margin:0; /* Užtikrinta, kad tarp eilučių nebūtų tarpo 
+
+}
+/* Testimonials sekcija */
+.testimonials {
+    background-color: #f4f7fa; /* Tiksliai parinkta šviesiai pilka/mėlyna spalva */
+    padding: 60px 20px;
+    margin-top: 30px;
+}
+
+/* Sekcijos pavadinimas */
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333; /* Tamsus tekstas */
+}
+
+/* Kiekvienas atsiliepimas */
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px; /* Vienodi tarpai tarp kortelių */
+}
+
+/* Apvalūs paveikslėliai */
+.testimonial img {
+    width: 100px; /* Paveikslėlių dydis */
+    height: 100px;
+    border-radius: 50%; /* Apvalūs paveikslėliai */
+    margin-bottom: 15px;
+    object-fit: cover; /* Užtikrina proporcijas */
+    border: 2px solid #dee2e6; /* Lengvas pilkas rėmelis aplink paveikslėlį */
+}
+
+/* Kliento vardas */
+.testimonial h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Atsiliepimo tekstas */
+.testimonial p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+}
+/* Ready to Start sekcija */
+.ready-to-start {
+    background-image: url(bg-masthead.jpg); /* Fono paveikslėlis */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px; /* Pakankami tarpai viršuje ir apačioje */
+    color: white; /* Teksto spalva */
+    text-align: center;
+}
+
+/* Sekcijos antraštė */
+.ready-to-start h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Formos stilius */
+.ready-to-start form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ready-to-start form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+    max-width: 400px;
+}
+
+.ready-to-start form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ready-to-start form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer sekcija */
+.footer {
+    background-image: url(bg-masthead.jpg)
+    padding: 20px 0;
+    color: white;
+    font-size: 14px;
+}
+
+/* Nuorodos */
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links span {
+    color: #fff; /* | simbolio spalva */
+}
+
+/* Socialinės ikonėlės */
+.footer-social a {
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer-social a:hover {
+    color: #d4d4d4; /* Užvedus pelę ikonėlės šiek tiek pašviesėja */
+}
+
+/* Apačioje esantis tekstas */
+.footer p {
+    color: #e0e0e0; /* Šviesiai pilkas tekstas */
+    margin-bottom: 0;
+}
